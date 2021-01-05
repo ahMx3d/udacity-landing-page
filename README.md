@@ -1,13 +1,9 @@
 # Landing Page Project
 
-## Table of Contents
+## Project Details
 
-* [Instructions](#instructions)
+This solution designed with respect to the ***separation of concerns*** and the **SRP** Principle to meet Udacity's Nanodegree of the professional track's first project *rubric specifications*.
 
-## Instructions
+The main scope of this project is to convert a static landing page into a dynamic JS interactive *single page*. This code manipulates the **DOM** elements according to the user's prompt input.
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Once clicking on any item in the navbar the page smoothly redirects the user directly to their desired part. Kindly note that the static starter code has been taken from Udacity's [repository](https://github.com/udacity/fend/tree/refresh-2019/projects/landing-page).

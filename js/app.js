@@ -1,3 +1,5 @@
+import Section from './Section.js';
+import NavItem from './NavItem.js';
 /**
  * 
  * Manipulating the DOM exercise.
@@ -13,45 +15,20 @@
  * 
 */
 
-/**
- * Define Global Variables
- * 
-*/
-
-
-/**
- * End Global Variables
- * Start Helper Functions
- * 
-*/
-
-
-
-/**
- * End Helper Functions
- * Begin Main Functions
- * 
-*/
-
-// build the nav
-
-
-// Add class 'active' to section when near top of viewport
-
-
-// Scroll to anchor ID using scrollTO event
-
-
-/**
- * End Main Functions
- * Begin Events
- * 
-*/
-
-// Build menu 
-
-// Scroll to section on link click
-
-// Set sections as active
-
-
+// the content landing function.
+(function(){
+    const
+        // Section Instance.
+        section = new Section(),
+        // NavItem Instance.
+        navItem = new NavItem();
+    let sectionsLength = +prompt(
+        'How many sections would you like?!\nMax length must be 9 not to damage the design :)',
+        '9'
+    );
+    sectionsLength = (!sectionsLength || sectionsLength>9)? 4: sectionsLength;
+	for (let i = 0; i < sectionsLength; i++) {
+        section.append();
+	}
+    navItem.append();
+}());
